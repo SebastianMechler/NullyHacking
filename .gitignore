@@ -1,0 +1,8 @@
+/NullyHacking/Debug/*.obj
+/NullyHacking/Debug/NullyHacking.tlog/*.tlog
+/*.opensdf
+/NullyHacking/Debug/NullyHacking.tlog/NullyHacking.lastbuildstate
+build
+Release
+Debug
+Library

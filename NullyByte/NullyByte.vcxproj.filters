@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Hack">
+      <UniqueIdentifier>{e6147af8-18d9-4f30-bcb4-73809e20cb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hack">
+      <UniqueIdentifier>{bea1edd2-f99c-4c69-8f4f-0d733570a48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plugin">
+      <UniqueIdentifier>{76cdde6c-7add-47a9-86ed-c24268845dd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPluginManager.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="NClickToMove.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="NFunctions.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="NHackBase.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="NMovementFlag.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="NObjectManager.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="NPathFile.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="NPlayer.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="NExecutablePath.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IPlugin.h">
+      <Filter>Header Files\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="NPluginManager.h">
+      <Filter>Header Files\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="NClassType.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NClickToMove.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NClickToMoveType.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NFunctions.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NHackBase.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NMovementFlag.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NObject.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NObjectManager.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NObjectType.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NOffsets.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NPathFile.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NPathFileType.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NPlayer.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NExecutablePath.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="NAPI.h">
+      <Filter>Header Files\Hack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

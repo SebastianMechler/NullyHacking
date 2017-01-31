@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{c2ab89d2-cc90-484d-8d52-4ea9b4d8b00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Container">
+      <UniqueIdentifier>{c58b9046-a31e-41d6-8f71-62e752d52335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Math">
+      <UniqueIdentifier>{c3031f60-a230-49f6-a242-089ae861bf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\File">
+      <UniqueIdentifier>{dfa225c8-79be-4b29-bc96-500e7c999d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\RemoteThread">
+      <UniqueIdentifier>{f129fb9c-175c-48d2-b773-f6114f79e6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Process">
+      <UniqueIdentifier>{62e7e0f1-e1d5-460d-bc3b-bae5770b6fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{12a562f2-a12b-4c26-86e2-dd9a72da0d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\DLLInjector">
+      <UniqueIdentifier>{33d3e38f-e94e-4bd1-bded-a862d79b9347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Module">
+      <UniqueIdentifier>{0e215e32-4c33-4759-8428-aeefe5bdfe46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NFile.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NProcess.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NRemoteThread.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NVector3.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NVector4.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NDLLInjector.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NModule.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NVector3.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NVector4.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NProcess.h">
+      <Filter>Header Files\Engine\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NProcess.hpp">
+      <Filter>Header Files\Engine\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NProcessData.h">
+      <Filter>Header Files\Engine\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NProcessModule.h">
+      <Filter>Header Files\Engine\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NFile.h">
+      <Filter>Header Files\Engine\File</Filter>
+    </ClInclude>
+    <ClInclude Include="NFileMode.h">
+      <Filter>Header Files\Engine\File</Filter>
+    </ClInclude>
+    <ClInclude Include="NFilePosition.h">
+      <Filter>Header Files\Engine\File</Filter>
+    </ClInclude>
+    <ClInclude Include="NAllocationType.h">
+      <Filter>Header Files\Engine\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NDeallocationType.h">
+      <Filter>Header Files\Engine\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NProtectionType.h">
+      <Filter>Header Files\Engine\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NRemoteThread.h">
+      <Filter>Header Files\Engine\RemoteThread</Filter>
+    </ClInclude>
+    <ClInclude Include="NString.h">
+      <Filter>Header Files\Engine\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="NMap.h">
+      <Filter>Header Files\Engine\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="NVector.h">
+      <Filter>Header Files\Engine\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="NResult.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NTypes.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NDLLInjector.h">
+      <Filter>Header Files\Engine\DLLInjector</Filter>
+    </ClInclude>
+    <ClInclude Include="NDLLData.h">
+      <Filter>Header Files\Engine\DLLInjector</Filter>
+    </ClInclude>
+    <ClInclude Include="NModule.h">
+      <Filter>Header Files\Engine\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="NMath.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NullyHacking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
